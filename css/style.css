@@ -1,0 +1,170 @@
+  img {
+    width: 16%;
+    padding: 1%;
+  }
+  nav {
+    width: 73%;
+    padding: 1%;
+  }
+  body {
+    font-family: "poppins";
+    margin:0;
+  }
+  #aboutMe { 
+  margin: 1%;
+  }
+  #caseStudies {
+    margin: 1%;
+  }
+  button {
+    font-family: "poppins";
+    color: #ffffff;
+    background-color: rgb(169, 9, 69);
+    margin: 0%;
+    border: 0px;
+    border-radius: 5%;
+    height: 50px;
+    width: auto;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  #contactMe {
+    margin-right: 20px;
+  }
+  #resume {
+    margin-left: 80px;
+  }
+  .aboutme {
+    margin: 0 80px 0 80px;
+  }
+  .h1 {
+    font-weight: 500;
+    font-size: 100;
+  }
+  .gettoknowMe {
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right:200px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+  }
+  .myExperience {
+    margin-left:100px;
+  }
+  .paragraphExperience {
+    margin-left:100px;
+    margin-right:800px;
+  }
+  .mySkills {
+    margin-top: 250px;
+    margin-left:100px;
+  }
+  .paragraphSkills {
+    margin-left:100px;
+    margin-right:800px;
+  }
+  .myWork {
+    margin-left:90px;
+    margin-top: 90px;
+  }
+  .paragraphCaseStudies {
+    margin-left:100px;
+  }
+  #workplace {
+    display:flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    float:right;
+    margin-top:-150px;
+    margin-right:200px;
+    width:500px;
+    height:300px;
+  }
+  /* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  background-color: #f1f1f1;
+  margin-left:100px;
+  margin-top: 100px;
+}  
+.listofSkills {
+  
+}
+  footer{
+    margin:0;
+    margin-top: 300px;
+    background-color: #CFC6CA;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width:100%;
+    justify-content: center;
+  }
+  h2 {
+    margin: 50px 0 25px 0;
+  }
+  h3 {
+    margin: 0 0 5px 0;
+    text-align:justify;
+    /* text-indent: 17% */
+  }
+  /* #resumelink {
+    text-indent: 20%;
+  }
+  #emailaddress{
+    text-indent: 12%;
+  }
+  #linkedinlink {
+    text-indent: 20%;
+  }
+  #copywright {
+    text-indent: 8%;
+  } */
+  #copywright {
+    margin: 50px 0 1px 0;
+  }
+  .right{
+    margin-top: -50px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .contact{
+    display:flex;
+    justify-content: center;
+  }
+  footer a {
+    margin: 5px;
+    text-decoration: none;
+    color:rgb(169, 9, 69)
+  }
+  
