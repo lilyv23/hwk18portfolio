@@ -116,8 +116,14 @@
   margin-left:100px;
   margin-top: 100px;
 }  
-.listofSkills {
-  
+.listSkills {
+  column-count: 2;
+  column-gap: 200px;
+  margin-left: 800px;
+  margin-top:-150px;
+}
+li {
+  align-items: center;
 }
   footer{
     margin:0;
