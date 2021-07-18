@@ -117,13 +117,16 @@
   margin-top: 100px;
 }  
 .listSkills {
-  column-count: 2;
+  column-count:2;
   column-gap: 200px;
   margin-left: 800px;
   margin-top:-150px;
 }
-li {
-  align-items: center;
+#momentum{
+  width:100%;
+}
+#dreamingzebra {
+  width:80%;
 }
   footer{
     margin:0;
